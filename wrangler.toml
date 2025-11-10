@@ -1,0 +1,17 @@
+name = "gaza-app"
+compatibility_date = "2024-01-15"
+
+[env.production]
+name = "gaza-app"
+
+[env.staging]
+name = "gaza-app-staging"
+
+# Pages configuration
+pages_build_output_dir = ".next"
+
+# Environment variables (set these in Cloudflare dashboard)
+# MONGODB_URI = "your-mongodb-connection-string"
+# MONGODB_DB = "voices-of-palestine"
+# NEXTAUTH_URL = "https://your-domain.pages.dev"
+# NEXTAUTH_SECRET = "your-secret-key"

@@ -1,0 +1,19 @@
+# API routes
+/api/* /api/:splat 200
+
+# Admin routes
+/admin/* /admin/:splat 200
+
+# Auth routes
+/auth/* /auth/:splat 200
+
+# Other app routes
+/analytics /analytics 200
+/embed /embed 200
+/submit /submit 200
+/testimonials /testimonials 200
+/privacy /privacy 200
+/terms /terms 200
+
+# Fallback for SPA routing
+/* /index.html 200
